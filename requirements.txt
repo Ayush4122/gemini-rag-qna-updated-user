@@ -1,0 +1,12 @@
+streamlit
+requests
+beautifulsoup4
+google-generativeai
+langchain-google-genai
+langchain
+faiss-cpu
+python-dotenv
+PyPDF2
+python-docx
+pandas
+plotly
