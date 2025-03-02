@@ -634,7 +634,7 @@ def create_pdf_preview(file):
         img_b64 = base64.b64encode(img_bytes).decode()
         
         # Display the image
-        preview_container.image(io.BytesIO(base64.b64decode(img_b64)), caption=f"Page {page_idx + 1}", use_column_width=True)
+        preview_container.image(io.BytesIO(base64.b64decode(img_b64)), caption=f"Page {page_idx + 1}", use_container_width=True)
         
         return total_pages
         
